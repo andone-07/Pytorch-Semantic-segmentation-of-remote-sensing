@@ -14,3 +14,6 @@
 - train.py：是项目的主要代码文件，其中包含了模型的训练过程。用户可以在这个文件中设置训练参数，如 epoch 数、batch size、优化器等。通过运行 train.py 文件，可以启动训练过程，并观察模型在训练集上的学习和调整过程。
 - 损失函数：项目提供了两种损失函数供用户选择，分别是 SoftCrossEntropyLoss+DiceLoss 和 SoftCrossEntropyLoss+LovaszLoss。这两种损失函数都是用于优化模型的，可以根据实际情况选择使用哪一种。在训练过程中，损失函数将用于计算模型预测结果与真实标签之间的差异，以引导模型学习和调整。
 - 模型微调：项目还提供了模型微调的功能，用户可以通过运行 fine_tune 函数来进行模型微调。在 fine_tune 函数中，用户可以指定微调的参数和目标，例如选择微调的层、微调的学习率等。通过模型微调，可以进一步优化模型在特定数据集上的性能，以适应特定的遥感图像分割任务。
+
+## 3、项目讲解视频
+地址：【CV项目展示视频-基于Pytroch和Unet的遥感图像分割】 https://www.bilibili.com/video/BV1KV411g77S/?share_source=copy_web&vd_source=39163189a6d6cd6f57b8a4017d3df50c
